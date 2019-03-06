@@ -10,7 +10,7 @@ natureData = pd.read_csv('C:/Users/leech/OneDrive/Desktop/Injury/nature.csv',enc
 partData = pd.read_csv('C:/Users/leech/OneDrive/Desktop/Injury/part.csv',encoding = "ISO-8859-1")
 sourceData = pd.read_csv('C:/Users/leech/OneDrive/Desktop/Injury/source.csv',encoding = "ISO-8859-1")
 
-data.dtypes
+data.dtypes 
 
 #   Drop irrelevant columns
 data.drop(["ID","Employer","Address1","Address2","City","State","Zip","Latitude","Longitude",
